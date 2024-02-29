@@ -3,3 +3,8 @@ String s = x.toString();  // Valid character data
 byte[] byteArray = s.getBytes();
 String ns = new String(byteArray); 
 x = new BigInteger(ns);
+byte[] byteArray = x.toByteArray();
+String s = new String(byteArray);
+byteArray = s.getBytes();
+x = new BigInteger(byteArray);
+
